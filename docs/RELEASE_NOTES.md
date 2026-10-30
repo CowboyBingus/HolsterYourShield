@@ -1,6 +1,0 @@
-- Pressing Backpack Function with the Ballistic Shield or the Directional Shield in hand puts the shield on your back while you keep your one-handed weapon.
-- The shield stays on your back when the game would bring it back to your hand, such as switching to a one-handed weapon or dropping an objective.
-- Pressing Backpack Function again returns the shield to your hand, or with the next one-handed weapon you take.
-- The shield moves through the game's own functions and the network message the game sends when you switch weapons.
-- The choice ends when you die or change backpacks, or when the game draws the shield seven times within two seconds.
-- Per frame: one memory read, plus one for the key while a shield is worn; no writes and no allocation.
